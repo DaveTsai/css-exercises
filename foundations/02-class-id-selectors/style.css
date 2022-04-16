@@ -1,0 +1,26 @@
+/* CSS style */
+
+p {
+background-color: pink;
+}
+
+div {
+    font-family: "Verdana";
+}
+
+#Second{
+    color:blue;
+    font-size: 36;
+    font-weight:bold;
+}
+
+.oddbig{
+    font-size:24;
+font-family:DejaVu Sans;
+}
+
+#Fourth {
+    background-color:lightgreen;
+    font-size:24;
+    font-weight:bold;
+}
