@@ -122,6 +122,10 @@ button.thirdbutton{
     justify-content: space-between;
     margin:10px;
 }
+.icon{
+    display: flex;
+    gap:10px;
+}
 .fa-bradns{
     cursor: pointer;
 }
