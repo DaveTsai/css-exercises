@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    max-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+/*This is the header*/
+.header{
+    margin:0px;
+    padding:10px;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.headerword {
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    gap:20px;
+
+}
+a:link, a:visited {
+    color:grey;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 20px;
+    
+}
+a:hover{
+    color:lightseagreen;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-decoration:none;
+
+}
+/* First row*/
+.content1{
+    background-color:#F2E9EB;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.picture1{
+  width:300px;
+  height:auto;
+  border:10px;
+  margin:10px;
+}
+.word{
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+.container1{
+    width:300px;
+}
+button{
+    background-color: lightblue;
+    font-size: 20px;
+    padding:5px;
+    border-color:lightblue;
+    cursor: pointer;
+}
+/* Second row */
+
+.content2{
+    display:flex;
+    flex-direction: column;
+    background-color: ;
+}
+.word2{
+    text-align: center;
+    font-size: 30px;
+    margin:20px;
+}
+img.circle{
+    width: 170px;
+    height:170px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.text{
+    width:150px;
+    text-align: center;
+    margin:9px;
+    font-size: larger;
+}
+.fourdogs{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+
+/* Third row */
+.content3{
+    background-color: #F2E9EB;
+    padding:15px;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quote{
+    text-align: center;
+    font-size: 40px;
+}
+.Name{
+    text-align: right;
+    font-size: 20px;
+    margin-top: 0px;
+}
+button.thirdbutton{
+    padding:8px;
+}
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.fa-bradns{
+    cursor: pointer;
+}
